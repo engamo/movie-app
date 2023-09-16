@@ -43,8 +43,7 @@ function App() {
     <>
       <Navbar bg="dark" expand="lg" variant="dark" className='navbar'>
         <Container fluid>
-          <Navbar.Brand href="/home">MovieDb App</Navbar.Brand>
-          <Navbar.Brand href="/home">Trending</Navbar.Brand>
+          <Navbar.Brand href="/home">MovieBox</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll"></Navbar.Toggle>
 
           <Navbar.Collapse id="navbarScroll">
@@ -56,7 +55,7 @@ function App() {
             <Form className="d-flex" onSubmit={searchMovie} autoComplete="off">
               <FormControl
                 type="search"
-                placeholder="Movie Search"
+                placeholder="What do you want to watch?"
                 className="me-2"
                 aria-label="search"
                 name="query"
